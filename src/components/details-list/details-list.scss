@@ -1,0 +1,18 @@
+.detailsList {
+  dt {
+    font-weight: 600;
+    float: left;
+  }
+  dd {
+    float: right; 
+    margin-left: 0;
+  }
+  dd, dt {
+    width: 50%;
+    margin-bottom: 12px;
+  }
+  > div {
+    display: flex;
+  }
+    display: flow-root;
+}

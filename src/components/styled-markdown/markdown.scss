@@ -1,0 +1,28 @@
+/* Changes made here should also be made in the same file in the engagements project*/
+.markdown
+{ 
+    p {
+        margin: 12px 0;
+    }
+    ul {
+        list-style: disc inside;
+        margin-left: 12px; 
+    }
+    li {
+      margin: 6px 0;
+    }
+    h2, h3, h4 {
+        &:not(:first-child){
+        margin-top: 18px;
+        }
+    }
+    a:after {
+        font-family: "Dev Center MDL2 Assets","Membership MDL2 Assets";
+        content: '\E8A7';
+        margin: 0 5px;
+        vertical-align: bottom;
+    }
+    img {
+      max-width: 100%;;
+    }
+}

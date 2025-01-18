@@ -1,0 +1,14 @@
+
+
+.association-setup input[type=number] {
+    width: 56px;
+    display:block;
+}
+.association-setup textarea,
+.association-setup fieldset label {
+    display: block;
+}
+.association-setup fieldset label,
+.association-setup p {
+    font-weight:600;
+}
